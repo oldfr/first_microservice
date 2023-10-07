@@ -13,8 +13,8 @@ public class FirstController {
     @GetMapping
     public List<Student> getStudent() {
         System.out.println("getting students");
-        return Arrays.asList(new Student(1,"Ankitha","Student"),
-        new Student(2,"Adithya","Student"));
+        return Arrays.asList(new Student(1,"Ross","Student"),
+        new Student(2,"Rachel","Student"));
     }
 
     @PostMapping
